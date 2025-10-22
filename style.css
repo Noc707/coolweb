@@ -6,11 +6,25 @@ body {
 
 .header {
     background-color: #1f2937;
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
     display: flex;
 }
 
 .main-one {
+    color: #f9faf8;
+    background-color: #1f2937;
+}
 
+.p-one {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .main-two {
@@ -26,5 +40,6 @@ body {
 }
 
 .footer {
-
+    background-color: #1f2937;
+    color: white;
 }
