@@ -1,0 +1,30 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(1, 1, 129);
+    display: flex;
+}
+
+.main-one {
+
+}
+
+.main-two {
+
+}
+
+.main-three {
+
+}
+
+.main-four {
+
+}
+
+.footer {
+    
+}
