@@ -11,12 +11,17 @@ body {
     color: white;
     font-weight: 900;
     font-size: 24px;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-.links {
+ul {
+    font-size: medium;
+    font-weight: 400;
     display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
 }
 
 li {
@@ -32,7 +37,18 @@ a {
     color: #f9faf8;
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-one {
+    display: flex;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .p-one {
@@ -50,13 +66,22 @@ a {
     background-color: #e5e7eb;
     font-size: 36px;
     font-weight: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
 }
 
 .main-four {
     background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+
 }
 
 .footer {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    justify-content: center;
 }
