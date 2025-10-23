@@ -106,10 +106,17 @@ img {
 .main-four {
     background-color: #3882f6;
     display: flex;
-    justify-content: center;
     margin: 75px 175px;
     padding: 55px;
+    border-radius: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.p-four {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
