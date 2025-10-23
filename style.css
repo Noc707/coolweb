@@ -107,14 +107,16 @@ img {
     background-color: #3882f6;
     display: flex;
     margin: 75px 175px;
-    padding: 55px;
+    padding: 18px;
     border-radius: 10px;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .p-four {
+    color: white;
+    font-size: larger;
     display: flex;
     flex-direction: column;
 }
